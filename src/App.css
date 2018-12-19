@@ -2,31 +2,136 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/* general styling  */
+header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0 0 5px black;
+  padding: 5px 0 5px 0;
+  font-size: 25px;
+}
+p {
+  margin: 6px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+  padding: 5px 0 5px 0;
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+a {
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* sign in page  */
+section.signIn {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+section.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  border-radius: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+input {
+  text-align: center;
+  margin: 1px;
+}
+button {
+  margin: 1px;
+}
+button:hover {
+}
+button:after {
+}
+
+/* request box  */
+section.requestBoxCentering {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 15px 0 15px 0;
 }
-
-.App-link {
-  color: #61dafb;
+section.requestBox {
+  width: 300px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.requestBoxTopBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img.requestBoxProfileImage {
+  max-width: 50px;
+  max-height: auto;
+  border-radius: 50%;
+}
+p.requestBoxProfileName {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+p.requestBoxDate {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+div.requestBoxTopBarInfo {
+  text-align: left;
+  margin-left: 10px;
+  width: 180px;
+}
+.fa-ellipsis-v {
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+}
+img.requestBoxImage {
+  max-width: 300px;
+  max-height: auto;
+}
+div.requestBoxMiddleBar {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+div.requestBoxMiddleBarTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p.requestBoxClick {
+  margin: 6px 1px 6px 1px;
+}
+.fa-magnet {
+  font-size: 11.5px;
+  margin: 0;
+}
+.fa-comment {
+  font-size: 13px;
+  margin: 0;
+}
+div.requestBoxBottomBar {
+  display: flex;
+  justify-content: space-around;
+}
+p.requestBoxBottomBarInfo {
+  opacity: 0.7;
+  font-size: 0.5rem;
 }
