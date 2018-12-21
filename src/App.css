@@ -191,28 +191,31 @@ div.profileAttributesBar {
   justify-content: space-around;
 }
 h6.profileAttributes {
-  border: 1px solid black;
+  box-shadow: 0 0 5px black;
   border-radius: 50%;
   padding: 10px;
   margin: 0;
 }
-p.profileBio {
-  border: 1px;
+div.profileBio {
+  margin: 5px;
+  box-shadow: 0 0 5px black;
 }
 div.profileMyCommunityParent {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 div.profileMyCommunity {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 300px;
-  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  padding: 5px;
 }
 img.ProfileCommunityProfileImage {
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 40px;
+  max-height: 40px;
   border-radius: 50%;
   border: 1px solid black;
   box-shadow: 0 0 4px white;

@@ -71,8 +71,8 @@ class App extends Component {
             </p>
           </div>
           <div className="profileMyCommunityParent">
+            {/* <h6>my community: make arrow pop down menu</h6> */}
             <div className="profileMyCommunity">
-              {/* <h6>my community: make arrow pop down menu</h6> */}
               <img
                 className="ProfileCommunityProfileImage"
                 src={profileimg}
