@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import requestimg from './assets/dev.jpeg'
 import profileimg from './assets/picklerick.jpg'
 
+//
+// three lines is called a hamburger menu
+//
 class Post extends Component {
   render() {
     return (
@@ -9,38 +12,50 @@ class Post extends Component {
         <section className="requestBoxCentering">
           <section className="requestBox">
             <div className="requestBoxTopBar">
-              <img
-                className="requestBoxProfileImage"
-                src={profileimg}
-                alt="profile"
-              />
+              <a href="#">
+                <img
+                  className="requestBoxProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
               <div className="requestBoxTopBarInfo">
-                <p className="requestBoxProfileName">Pickle Rick</p>
+                <a href="#">
+                  <p className="requestBoxProfileName">Pickle Rick</p>
+                </a>
                 <p className="requestBoxDate">Yesterday</p>
               </div>
-              <i class="fas fa-ellipsis-v" />
+              <a href="#">
+                <i className="fas fa-ellipsis-v" />
+              </a>
             </div>
+            <h4>Need help with react router!!</h4>
             <img className="requestBoxImage" src={requestimg} alt="request" />
-            <p>
-              Bacon ipsum dolor amet buffalo tail leberkas swine rump. Chicken
-              drumstick porchetta, bresaola strip steak filet mignon shoulder
-              pig t-bone sirloin doner pork loin biltong jerky. Pig pork cow
-              filet mignon. Pancetta short ribs pastrami, tail landjaeger
-              turducken meatball.
-            </p>
+            <ul>
+              <li>free on weekends and nights after 7</li>
+              <li>Meetup at Starbucks downtown St.Pete?</li>
+            </ul>
             <div className="requestBoxMiddleBar">
               <div className="requestBoxMiddleBarTwo">
-                <i class="far fa-comment" />
-                <p className="requestBoxClick">Comment</p>
+                <a href="#">
+                  <i className="far fa-comment" />
+                </a>
+                {/* <p className="requestBoxClick">Comment</p> */}
               </div>
               <div className="requestBoxMiddleBarTwo">
-                <i class="fas fa-magnet" />
-                <p className="requestBoxClick">Interested</p>
+                <a href="#">
+                  <i className="fas fa-magnet" />
+                </a>
+                {/* <p className="requestBoxClick">Interested</p> */}
               </div>
             </div>
             <div className="requestBoxBottomBar">
-              <p className="requestBoxBottomBarInfo">7 comments</p>
-              <p className="requestBoxBottomBarInfo">9 Interested</p>
+              <a href="#" className="requestBoxBottomBarInfo">
+                7 comments
+              </a>
+              <a href="#" className="requestBoxBottomBarInfo">
+                9 Interested
+              </a>
             </div>
           </section>
         </section>

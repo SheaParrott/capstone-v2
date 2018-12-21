@@ -5,9 +5,15 @@ class Header extends Component {
     return (
       <div>
         <header>
-          <i class="fas fa-bars" />
-          <i class="fab fa-connectdevelop" />
-          <i class="fas fa-search" />
+          <a href="#">
+            <i className="fas fa-bars" />
+          </a>
+          <a href="#">
+            <i className="fab fa-connectdevelop" />
+          </a>
+          <a href="#">
+            <i className="fas fa-search" />
+          </a>
         </header>
       </div>
     )
