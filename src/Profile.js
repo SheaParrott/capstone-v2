@@ -68,6 +68,31 @@ class Profile extends Component {
                 src={profileimg}
                 alt="profile"
               />
+              <img
+                className="ProfileCommunityProfileImage"
+                src={profileimg}
+                alt="profile"
+              />{' '}
+              <img
+                className="ProfileCommunityProfileImage"
+                src={profileimg}
+                alt="profile"
+              />{' '}
+              <img
+                className="ProfileCommunityProfileImage"
+                src={profileimg}
+                alt="profile"
+              />{' '}
+              <img
+                className="ProfileCommunityProfileImage"
+                src={profileimg}
+                alt="profile"
+              />{' '}
+              <img
+                className="ProfileCommunityProfileImage"
+                src={profileimg}
+                alt="profile"
+              />
             </div>
           </div>
           <div class="ProfilePostsBox">
