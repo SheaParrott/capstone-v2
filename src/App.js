@@ -8,6 +8,7 @@ import profileimg from './assets/picklerick.jpg'
 import coverimg from './assets/space.jpeg'
 import requestimg from './assets/dev.jpeg'
 import Footer from './Footer'
+import Post from './Post'
 
 // ~COMMUNITY APP~
 // expand your world and build community
@@ -62,7 +63,8 @@ class App extends Component {
             <h6 className="profileAttributes">STRUGGLES</h6>
           </div>
           <div className="profileBio">
-            {/* <h6>bio: make arrow pop down menu</h6> */}
+            {/* add hide and show button */}
+            <h6>bio:</h6>
             <p>
               Pokem ipsum dolor sit amet Zekrom Nidoran Togetic Girafarig
               Hariyama Cubchoo. V for victory Remoraid Terrakion Lanturn Seviper
@@ -160,6 +162,12 @@ class App extends Component {
               <h6>See More</h6>
             </div>
           </div>
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
         </main>
         <Footer />
       </div>
