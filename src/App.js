@@ -6,6 +6,8 @@ import Explore from './Explore'
 import Header from './Header'
 import profileimg from './assets/picklerick.jpg'
 import coverimg from './assets/space.jpeg'
+import requestimg from './assets/dev.jpeg'
+import Footer from './Footer'
 
 // ~COMMUNITY APP~
 // expand your world and build community
@@ -71,7 +73,7 @@ class App extends Component {
             </p>
           </div>
           <div className="profileMyCommunityParent">
-            {/* <h6>my community: make arrow pop down menu</h6> */}
+            <h6>my community:</h6>
             <div className="profileMyCommunity">
               <img
                 className="ProfileCommunityProfileImage"
@@ -100,7 +102,66 @@ class App extends Component {
               />
             </div>
           </div>
+          <div class="ProfilePostsBoxParent">
+            <div class="ProfilePostsBox">
+              <h6>Recommended Posts:</h6>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <h6>See More</h6>
+            </div>
+            <div class="ProfilePostsBox">
+              <h6>interested Posts:</h6>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+              <h6>See More</h6>
+            </div>
+          </div>
         </main>
+        <Footer />
       </div>
     )
   }

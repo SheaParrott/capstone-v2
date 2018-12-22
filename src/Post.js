@@ -29,7 +29,7 @@ class Post extends Component {
                 <i className="fas fa-ellipsis-v" />
               </a>
             </div>
-            <h4>Need help with react router!!</h4>
+            <h4 className="requestBoxTitle">Need help with react router!!</h4>
             <img className="requestBoxImage" src={requestimg} alt="request" />
             <ul>
               <li>free on weekends and nights after 7</li>
