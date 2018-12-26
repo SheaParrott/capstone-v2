@@ -5,7 +5,7 @@ class SignIn extends Component {
   render() {
     return (
       <div>
-        <h1 className="signInAppName">Community</h1>
+        <h1 className="AppName">Community</h1>
         <section className="signIn">
           <p>SIGN IN</p>
           <input placeholder="Username" />

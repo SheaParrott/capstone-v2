@@ -11,6 +11,8 @@ import Footer from './Footer'
 import Post from './Post'
 import Profile from './Profile'
 import PostWithComments from './PostWithComments'
+import Mission from './Mission'
+import Creator from './Creator'
 
 // ~COMMUNITY APP~
 // expand your world and build community
@@ -49,8 +51,10 @@ class App extends Component {
         {/* <SignIn /> */}
         {/* <RecommendedPosts /> */}
         {/* <InterestedPosts /> */}
-        <Profile />
+        {/* <Profile /> */}
         {/* <PostWithComments /> */}
+        <Creator />
+        <Mission />
       </div>
     )
   }
