@@ -54,7 +54,7 @@ class App extends Component {
         {/* <Profile /> */}
         {/* <PostWithComments /> */}
         <Creator />
-        <Mission />
+        {/* <Mission /> */}
       </div>
     )
   }

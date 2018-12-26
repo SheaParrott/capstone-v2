@@ -14,6 +14,9 @@ class Creator extends Component {
         <p className="creatorInfo">github.com/SheaParrott</p>
         <p className="creatorInfo">LinkedIn: </p>
         <p className="creatorInfo">linkedin.com/in/shea-parrott/</p>
+        <a href="https://docs.google.com/document/d/1Z1NtGepxXQ0KSNtZz0EUiudEEIBaKcgVpIWB3Awpvl0/edit?usp=sharing">
+          Click for Resume
+        </a>
         <Footer />
       </div>
     )
