@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <footer>
         <a href="#"> Mission</a>
-        <a href="#">Creater</a>
+        <a href="#">Creator</a>
         <p>&copy; SheaParrott Productions</p>
       </footer>
     )

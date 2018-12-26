@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import SignIn from './SignIn'
-import ForYou from './ForYou'
-import Explore from './Explore'
+import ForYou from './RecommendedPosts'
+import Explore from './InterestedPosts'
 import Header from './Header'
 import profileimg from './assets/picklerick.jpg'
 import coverimg from './assets/space.jpeg'
@@ -11,6 +11,11 @@ import Footer from './Footer'
 import Post from './Post'
 
 class Profile extends Component {
+  fillInBox = event => {
+    console.log('clicked')
+    // will need if statements to make work right
+  }
+
   render() {
     return (
       <div className="App">
@@ -22,14 +27,24 @@ class Profile extends Component {
           <div className="profileTop">
             <img className="ProfileImage" src={profileimg} alt="profile" />
           </div>
+          {/* on click fill bio box below with info */}
           <div className="profileAttributesBar">
-            <h6 className="profileAttributes">HOBBIES</h6>
-            <h6 className="profileAttributes">INTERESTS</h6>
-            <h6 className="profileAttributes">SKILLS</h6>
-            <h6 className="profileAttributes">STRUGGLES</h6>
+            <h6 onClick={this.fillInBox} className="profileAttributes">
+              HOBBIES
+            </h6>
+            <h6 onClick={this.fillInBox} className="profileAttributes">
+              INTERESTS
+            </h6>
+            <h6 onClick={this.fillInBox} className="profileAttributes">
+              SKILLS
+            </h6>
+            <h6 onClick={this.fillInBox} className="profileAttributes">
+              STRUGGLES
+            </h6>
           </div>
           <div className="profileBio">
-            {/* add hide and show button */}
+            {/* add hide and show button, aka drop down menu */}
+            {/* have hobbies, interests , skills, and struggles fill the bio section and remove bio possibly? */}
             <h6>bio:</h6>
             <p>
               Pokem ipsum dolor sit amet Zekrom Nidoran Togetic Girafarig
@@ -43,113 +58,149 @@ class Profile extends Component {
           <div className="profileMyCommunityParent">
             <h6>my community:</h6>
             <div className="profileMyCommunity">
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />{' '}
-              <img
-                className="ProfileCommunityProfileImage"
-                src={profileimg}
-                alt="profile"
-              />
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
+              <a href="#">
+                <img
+                  className="ProfileCommunityProfileImage"
+                  src={profileimg}
+                  alt="profile"
+                />
+              </a>
             </div>
           </div>
           <div class="ProfilePostsBox">
             <h6>Recommended Posts:</h6>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <h6>See More</h6>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <h6>See More</h6>
+            </a>
           </div>
           <div class="ProfilePostsBox">
             <h6>interested Posts:</h6>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <div class="ProfileRecommendedPost">
-              <img
-                className="ProfileRequestBoxImage"
-                src={requestimg}
-                alt="request"
-              />
-              <h4>Need help with react router!!</h4>
-            </div>
-            <h6>See More</h6>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <div class="ProfileRecommendedPost">
+                <img
+                  className="ProfileRequestBoxImage"
+                  src={requestimg}
+                  alt="request"
+                />
+                <h4>Need help with react router!!</h4>
+              </div>
+            </a>
+            <a href="#">
+              <h6>See More</h6>
+            </a>
           </div>
           <Post />
           <Post />

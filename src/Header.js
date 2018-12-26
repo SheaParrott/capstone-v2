@@ -5,6 +5,14 @@ class Header extends Component {
     return (
       <div>
         <header>
+          {/* hamburger menu
+          my profile
+          recommended posts
+          interested posts
+          mission 
+          creator
+          sign out
+          */}
           <a href="#">
             <i className="fas fa-bars" />
           </a>
@@ -12,7 +20,7 @@ class Header extends Component {
             <i className="fab fa-connectdevelop" />
           </a>
           <a href="#">
-            <i className="fas fa-search" />
+            <i class="fas fa-bell" />
           </a>
         </header>
       </div>

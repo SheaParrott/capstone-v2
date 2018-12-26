@@ -4,7 +4,7 @@ import Post from './Post'
 import Header from './Header'
 import Footer from './Footer'
 
-class Explore extends Component {
+class RecommendedPosts extends Component {
   render() {
     return (
       <div className="App">
@@ -19,4 +19,4 @@ class Explore extends Component {
   }
 }
 
-export default Explore
+export default RecommendedPosts

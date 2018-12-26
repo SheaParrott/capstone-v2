@@ -4,7 +4,7 @@ import Post from './Post'
 import Header from './Header'
 import Footer from './Footer'
 
-class ForYou extends Component {
+class InterestedPosts extends Component {
   render() {
     return (
       <div className="App">
@@ -19,4 +19,4 @@ class ForYou extends Component {
   }
 }
 
-export default ForYou
+export default InterestedPosts

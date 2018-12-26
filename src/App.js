@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import SignIn from './SignIn'
-import ForYou from './ForYou'
-import Explore from './Explore'
+import RecommendedPosts from './RecommendedPosts'
+import InterestedPosts from './InterestedPosts'
 import Header from './Header'
 import profileimg from './assets/picklerick.jpg'
 import coverimg from './assets/space.jpeg'
@@ -10,6 +10,7 @@ import requestimg from './assets/dev.jpeg'
 import Footer from './Footer'
 import Post from './Post'
 import Profile from './Profile'
+import PostWithComments from './PostWithComments'
 
 // ~COMMUNITY APP~
 // expand your world and build community
@@ -45,10 +46,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SignIn />
-        {/* <ForYou /> */}
-        {/* <Explore /> */}
-        {/* <Profile /> */}
+        {/* <SignIn /> */}
+        {/* <RecommendedPosts /> */}
+        {/* <InterestedPosts /> */}
+        <Profile />
+        {/* <PostWithComments /> */}
       </div>
     )
   }
