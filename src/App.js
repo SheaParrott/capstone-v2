@@ -13,8 +13,7 @@ import Profile from './Profile'
 
 // ~COMMUNITY APP~
 // expand your world and build community
-// build eachother up app
-// help eachother
+// help & build eachother up app
 // inspirational quotes
 // good vibes
 
@@ -46,10 +45,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <SignIn /> */}
+        <SignIn />
         {/* <ForYou /> */}
         {/* <Explore /> */}
-        <Profile />
+        {/* <Profile /> */}
       </div>
     )
   }
