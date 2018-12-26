@@ -51,9 +51,9 @@ class App extends Component {
         {/* <SignIn /> */}
         {/* <RecommendedPosts /> */}
         {/* <InterestedPosts /> */}
-        {/* <Profile /> */}
+        <Profile />
         {/* <PostWithComments /> */}
-        <Creator />
+        {/* <Creator /> */}
         {/* <Mission /> */}
       </div>
     )

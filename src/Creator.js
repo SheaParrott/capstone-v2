@@ -11,11 +11,15 @@ class Creator extends Component {
         <p className="creatorInfo">(904) 629-8670</p>
         <p className="creatorInfo">alexandergotthis@gmail.com</p>
         <p className="creatorInfo">GitHub:</p>
-        <p className="creatorInfo">github.com/SheaParrott</p>
+        <a href="https://github.com/SheaParrott" target="_blank">
+          <p className="creatorInfo">github.com/SheaParrott</p>
+        </a>
         <p className="creatorInfo">LinkedIn: </p>
-        <p className="creatorInfo">linkedin.com/in/shea-parrott/</p>
+        <a href="https://www.linkedin.com/in/shea-parrott/" target="_blank">
+          <p className="creatorInfo">linkedin.com/in/shea-parrott/</p>
+        </a>
         <a href="https://docs.google.com/document/d/1Z1NtGepxXQ0KSNtZz0EUiudEEIBaKcgVpIWB3Awpvl0/edit?usp=sharing">
-          Click for Resume
+          <strong>Resume</strong>
         </a>
         <Footer />
       </div>
