@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import './style.css'
-import SignIn from '../../NotSignIn'
-import ForYou from '../../NotRecommendedPosts'
-import Explore from '../../NotInterestedPosts'
+import SignIn from '../SignIn/index'
+import Posts from '../Posts/index'
 import Header from '../../Components/Header'
 import profileimg from '../../assets/picklerick.jpg'
 import coverimg from '../../assets/space.jpeg'
 import requestimg from '../../assets/dev.jpeg'
 import Footer from '../../Components/Footer'
-import Post from '../../Components/Post'
+import Post from '../../Components/Post/Post'
 
 class Profile extends Component {
   fillInBox = event => {

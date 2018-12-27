@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import requestimg from '../assets/dev.jpeg'
-import profileimg from '../assets/picklerick.jpg'
+import requestimg from '../../assets/dev.jpeg'
+import profileimg from '../../assets/picklerick.jpg'
+import './style.css'
 
 //
 // three lines is called a hamburger menu

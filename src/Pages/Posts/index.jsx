@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './style.css'
-import Post from '../../Components/Post'
+import Post from '../../Components/Post/Post'
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 

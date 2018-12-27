@@ -3,7 +3,8 @@ import './App.css'
 
 // components
 import Footer from './Components/Footer'
-import Post from './Components/Post'
+import Post from './Components/Post/Post'
+import Header from './Components/Header'
 
 // pages
 import SignIn from './Pages/SignIn/index'
@@ -59,7 +60,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <SignIn /> */}
+        <SignIn />
         {/* <Profile /> */}
         {/* <Posts /> */}
         {/* <PostWithComments /> */}
