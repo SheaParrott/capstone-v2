@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Post from './Post'
 import Header from './Header'
-import Footer from './Footer'
+import Footer from './Components/Footer'
 
 class InterestedPosts extends Component {
   render() {

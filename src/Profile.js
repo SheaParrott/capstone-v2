@@ -7,7 +7,7 @@ import Header from './Header'
 import profileimg from './assets/picklerick.jpg'
 import coverimg from './assets/space.jpeg'
 import requestimg from './assets/dev.jpeg'
-import Footer from './Footer'
+import Footer from './Components/Footer'
 import Post from './Post'
 
 class Profile extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Footer from './Footer'
+import Footer from './Components/Footer'
 import CreatorImage from './assets/IMG_0327.jpg'
 
 class Creator extends Component {
