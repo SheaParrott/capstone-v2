@@ -28,14 +28,29 @@ img.ProfileImage:hover {
 div.profileAttributesBar {
   display: flex;
   justify-content: space-around;
+  margin-top: 33px;
 }
-h6.profileAttributes {
+h6.profileAttributesLeft {
   box-shadow: 0 0 5px black;
   border-radius: 50%;
-  padding: 15px 18px 15px 18px;
-  margin: 2px;
+  padding: 15px 22px 15px 22px;
+  margin: 2px -20px 2px 30px;
 }
-h6.profileAttributes:hover {
+h6.profileAttributesMiddle {
+  box-shadow: 0 0 5px black;
+  border-radius: 50%;
+  padding: 15px 22px 15px 22px;
+  margin: -30px 9px 32px 9px;
+}
+h6.profileAttributesRight {
+  box-shadow: 0 0 5px black;
+  border-radius: 50%;
+  padding: 15px 22px 15px 22px;
+  margin: 2px 30px 2px -20px;
+}
+h6.profileAttributesLeft:hover,
+h6.profileAttributesMiddle:hover,
+h6.profileAttributesRight:hover {
   box-shadow: 0 0 5px #349af0;
   cursor: pointer;
 }

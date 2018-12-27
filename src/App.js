@@ -44,10 +44,17 @@ import Mission from './Pages/Mission/index'
 // - what friends are up to
 // - things that are related to your profile info
 
-// where to make a post
-// add to your community option
-// see more in my community
-//  what i want to do, what i can do, what need help doing
+// Things missing:
+// [] where to make a post
+// [] add to your request to join community option
+// [] see more in my community
+// [x] what i want to do, what i can do, what need help doing
+// [] page for updating profile page
+//  - picture
+//  - strengths
+//  - about me
+//  - struggles
+
 // accordian -- drop down menus
 // SCSS
 // bulma or bootstrap
