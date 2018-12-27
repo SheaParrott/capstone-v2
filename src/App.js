@@ -9,6 +9,7 @@ import Header from './Components/Header'
 // pages
 import SignIn from './Pages/SignIn/index'
 import Profile from './Pages/Profile/index'
+import UpdateProfile from './Pages/UpdateProfile/index'
 import Posts from './Pages/Posts/index'
 import PostWithComments from './Pages/PostWithComments/index'
 import Creator from './Pages/Creator/index'
@@ -55,6 +56,10 @@ import Mission from './Pages/Mission/index'
 //  - about me
 //  - struggles
 
+// to do:
+// [x] add react router
+// [x] add axios
+
 // accordian -- drop down menus
 // SCSS
 // bulma or bootstrap
@@ -69,6 +74,7 @@ class App extends Component {
       <div className="App">
         {/* <SignIn /> */}
         <Profile />
+        {/* <UpdateProfile /> */}
         {/* <Posts /> */}
         {/* <PostWithComments /> */}
         {/* <Creator /> */}
