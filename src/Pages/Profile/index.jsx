@@ -29,13 +29,10 @@ class Profile extends Component {
           {/* on click fill bio box below with info */}
           <div className="profileAttributesBar">
             <h6 onClick={this.fillInBox} className="profileAttributes">
-              HOBBIES
+              STRENGTHS
             </h6>
             <h6 onClick={this.fillInBox} className="profileAttributes">
-              INTERESTS
-            </h6>
-            <h6 onClick={this.fillInBox} className="profileAttributes">
-              SKILLS
+              ABOUT ME
             </h6>
             <h6 onClick={this.fillInBox} className="profileAttributes">
               STRUGGLES
