@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
-import Post from './Post'
-import Header from './Header'
+import Post from './Components/Post'
+import Header from './Components/Header'
 import Footer from './Components/Footer'
 
 class InterestedPosts extends Component {

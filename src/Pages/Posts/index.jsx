@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import './App.css'
-import Post from './Post'
-import Header from './Header'
-import Footer from './Components/Footer'
+import './style.css'
+import Post from '../../Components/Post'
+import Header from '../../Components/Header'
+import Footer from '../../Components/Footer'
 
-class RecommendedPosts extends Component {
+class Posts extends Component {
   render() {
     return (
       <div className="App">
@@ -19,4 +19,4 @@ class RecommendedPosts extends Component {
   }
 }
 
-export default RecommendedPosts
+export default Posts

@@ -1,20 +1,17 @@
 import React, { Component } from 'react'
 import './App.css'
-import SignIn from './SignIn'
-import RecommendedPosts from './RecommendedPosts'
-import InterestedPosts from './InterestedPosts'
-import Header from './Header'
-import profileimg from './assets/picklerick.jpg'
-import coverimg from './assets/space.jpeg'
-import requestimg from './assets/dev.jpeg'
-import Footer from './Components/Footer'
-import Post from './Post'
-import Profile from './Profile'
-import PostWithComments from './PostWithComments'
-import Mission from './Mission'
-// import Creator from './Creator'
 
+// components
+import Footer from './Components/Footer'
+import Post from './Components/Post'
+
+// pages
+import SignIn from './Pages/SignIn/index'
+import Profile from './Pages/Profile/index'
+import Posts from './Pages/Posts/index'
+import PostWithComments from './Pages/PostWithComments/index'
 import Creator from './Pages/Creator/index'
+import Mission from './Pages/Mission/index'
 
 // ~COMMUNITY APP~
 // expand your world and build community
@@ -54,14 +51,17 @@ import Creator from './Pages/Creator/index'
 // SCSS
 // bulma or bootstrap
 //  - templates for pluguins
+
+//  to do next
+//  - make folders for pages
+//  - add in react router
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <SignIn />
+        {/* <SignIn /> */}
         {/* <Profile /> */}
-        {/* <RecommendedPosts /> */}
-        {/* <InterestedPosts /> */}
+        {/* <Posts /> */}
         {/* <PostWithComments /> */}
         {/* <Creator /> */}
         {/* <Mission /> */}
