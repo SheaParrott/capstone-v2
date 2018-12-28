@@ -66,16 +66,6 @@ class Profile extends Component {
           <li>something else</li>
         </ul>
       )
-    } else {
-      return (
-        <p>
-          Pokem ipsum dolor sit amet Zekrom Nidoran Togetic Girafarig Hariyama
-          Cubchoo. V for victory Remoraid Terrakion Lanturn Seviper Grimer
-          Plusle. Blizzard Elgyem Combusken Shinx Gold Luxio Leaf Green. Ivysaur
-          Houndoom Jirachi Professor Elm Spheal Gorebyss Silver. Razor Leaf
-          Kingdra Xatu Serperior Sewaddle Plusle Octillery.
-        </p>
-      )
     }
   }
 
@@ -191,10 +181,13 @@ class Profile extends Component {
                 />
               </a>
             </div>
+            <a href="#">
+              <h6>See More</h6>
+            </a>
           </div>
           <div class="ProfilePostsBox">
             <h6>Recommended Posts:</h6>
-            <a href="#">
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -203,8 +196,8 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -213,8 +206,8 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -223,14 +216,14 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/Posts">
               <h6>See More</h6>
-            </a>
+            </Link>
           </div>
           <div class="ProfilePostsBox">
             <h6>interested Posts:</h6>
-            <a href="#">
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -239,8 +232,8 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -249,8 +242,8 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/PostWithComments">
               <div class="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
@@ -259,10 +252,10 @@ class Profile extends Component {
                 />
                 <h4>Need help with react router!!</h4>
               </div>
-            </a>
-            <a href="#">
+            </Link>
+            <Link to="/Posts">
               <h6>See More</h6>
-            </a>
+            </Link>
           </div>
           <Post />
           <Post />
