@@ -1,8 +1,18 @@
 import React, { Component } from 'react'
 import Footer from '../../Components/Footer'
 import './style.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class SignIn extends Component {
+  signInAuthorization = () => {
+    console.log('regular click')
+  }
+  googleAuthorization = () => {
+    console.log('google click')
+  }
+  signUp = () => {
+    console.log('sign up')
+  }
   render() {
     return (
       <div>
@@ -11,20 +21,26 @@ class SignIn extends Component {
           <p>SIGN IN</p>
           <input placeholder="Username" />
           <input placeholder="Password" />
-          <button>SUBMIT</button>
+          <Link to="/profile">
+            <button onClick={this.signInAuthorization}>SUBMIT</button>
+          </Link>
         </section>
         <h5>to sign up</h5>
         <section className="signUp">
-          <button>
-            <i class="fab fa-google-plus-g" />
-            GMAIL
-          </button>
+          <Link to="/UpdateProfile">
+            <button onClick={this.googleAuthorization}>
+              <i class="fab fa-google-plus-g" />
+              GMAIL
+            </button>
+          </Link>
           <p>OR</p>
           <input placeholder="Email" />
           <input placeholder="Full Name" />
           <input placeholder="Username" />
           <input placeholder="Password" />
-          <button>SIGN UP</button>
+          <Link to="/UpdateProfile">
+            <button onClick={this.signUp}>SIGN UP</button>
+          </Link>
         </section>
         <section className="signInMission">
           <div className="signInMissionStatements">

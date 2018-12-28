@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import HamburgerMenu from './headerHamburgerMenu'
+import Notifications from './notifications'
 
 class Header extends Component {
   render() {
@@ -16,9 +19,9 @@ class Header extends Component {
           <a href="#">
             <i className="fas fa-bars" />
           </a>
-          <a href="#">
+          <Link to="/profile">
             <i className="fab fa-connectdevelop" />
-          </a>
+          </Link>
           <a href="#">
             <i class="fas fa-bell" />
           </a>

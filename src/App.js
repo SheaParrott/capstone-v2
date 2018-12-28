@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
-
 // tools
 import axios from 'axios'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-
 // components
 import Footer from './Components/Footer'
 import Post from './Components/Post/Post'
 import Header from './Components/Header'
-
 // pages
 import SignIn from './Pages/SignIn/index'
 import Profile from './Pages/Profile/index'
@@ -19,6 +16,26 @@ import PostWithComments from './Pages/PostWithComments/index'
 import Creator from './Pages/Creator/index'
 import Mission from './Pages/Mission/index'
 
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Route path="/" exact component={SignIn} />
+          <Route path="/SignIn/" component={SignIn} />
+          <Route path="/Profile/" component={Profile} />
+          <Route path="/UpdateProfile/" component={UpdateProfile} />
+          <Route path="/Posts/" component={Posts} />
+          <Route path="/PostWithComments/" component={PostWithComments} />
+          <Route path="/Creator/" component={Creator} />
+          <Route path="/Mission/" component={Mission} />
+        </div>
+      </Router>
+    )
+  }
+}
+
+export default App
 // ~COMMUNITY APP~
 // expand your world and build community
 // help & build eachother up app
@@ -53,6 +70,7 @@ import Mission from './Pages/Mission/index'
 // [] where to make a post
 // [] add to your request to join community option
 // [] see more in my community
+//     - make a my community page
 // [x] what i want to do, what i can do, what need help doing
 // [] add some sort of back button to Mission and Creater pages
 // [] page for updating profile page
@@ -66,6 +84,7 @@ import Mission from './Pages/Mission/index'
 // [x] add axios
 // [] learn and add in accordian
 // [] make Notification bell light up when new Notifications are present
+//    - make notifications page or drop down menu aka accordian
 
 // accordian -- drop down menus
 // SCSS
@@ -75,23 +94,3 @@ import Mission from './Pages/Mission/index'
 //  to do next
 //  - make folders for pages
 //  - add in react router
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <div className="App">
-          <Route path="/" exact component={SignIn} />
-          <Route path="/SignIn/" component={SignIn} />
-          <Route path="/Profile/" component={Profile} />
-          <Route path="/UpdateProfile/" component={UpdateProfile} />
-          <Route path="/Posts/" component={Posts} />
-          <Route path="/PostWithComments/" component={PostWithComments} />
-          <Route path="/Creator/" component={Creator} />
-          <Route path="/Mission/" component={Mission} />
-        </div>
-      </Router>
-    )
-  }
-}
-
-export default App
