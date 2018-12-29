@@ -15,6 +15,8 @@ import Posts from './Pages/Posts/index'
 import PostWithComments from './Pages/PostWithComments/index'
 import Creator from './Pages/Creator/index'
 import Mission from './Pages/Mission/index'
+import MyCommunity from './Pages/MyCommunity'
+import Notifications from './Pages/Notifications'
 
 class App extends Component {
   render() {
@@ -23,8 +25,10 @@ class App extends Component {
         <div className="App">
           <Route path="/" exact component={SignIn} />
           <Route path="/SignIn/" component={SignIn} />
+          <Route path="/Notifications/" component={Notifications} />
           <Route path="/Profile/" component={Profile} />
           <Route path="/UpdateProfile/" component={UpdateProfile} />
+          <Route path="/MyCommunity/" component={MyCommunity} />
           <Route path="/Posts/" component={Posts} />
           <Route path="/PostWithComments/" component={PostWithComments} />
           <Route path="/Creator/" component={Creator} />

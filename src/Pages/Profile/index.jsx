@@ -110,80 +110,80 @@ class Profile extends Component {
           <div className="profileMyCommunityParent">
             <h6>my community:</h6>
             <div className="profileMyCommunity">
-              <a href="#">
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
-              <a href="#">
+              </Link>
+              <Link to="/Profile">
                 <img
                   className="ProfileCommunityProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
+              </Link>
             </div>
-            <a href="#">
+            <Link to="/MyCommunity">
               <h6>See More</h6>
-            </a>
+            </Link>
           </div>
           <div class="ProfilePostsBox">
             <h6>Recommended Posts:</h6>

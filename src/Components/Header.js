@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import HamburgerMenu from './headerHamburgerMenu'
-import Notifications from './notifications'
+import Notifications from './Notifications'
 
 class Header extends Component {
   render() {
@@ -22,9 +22,9 @@ class Header extends Component {
           <Link to="/profile">
             <i className="fab fa-connectdevelop" />
           </Link>
-          <a href="#">
+          <Link to="Notifications">
             <i class="fas fa-bell" />
-          </a>
+          </Link>
         </header>
       </div>
     )

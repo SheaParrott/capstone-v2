@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import requestimg from '../../assets/dev.jpeg'
 import profileimg from '../../assets/picklerick.jpg'
 import './style.css'
+import Header from '../../Components/Header'
+import Footer from '../../Components/Footer'
 
 //
 // three lines is called a hamburger menu
@@ -10,6 +12,7 @@ class PostWithComments extends Component {
   render() {
     return (
       <div>
+        <Header />
         <section className="requestBoxCentering">
           <section className="requestBox">
             <div className="requestBoxTopBar">
@@ -37,12 +40,6 @@ class PostWithComments extends Component {
               <li>Meetup at Starbucks downtown St.Pete?</li>
             </ul>
             <div className="requestBoxMiddleBar">
-              <div className="requestBoxMiddleBarTwo">
-                <a href="#">
-                  <i className="far fa-comment" />
-                </a>
-                {/* <p className="requestBoxClick">Comment</p> */}
-              </div>
               <div className="requestBoxMiddleBarTwo">
                 <a href="#">
                   <i className="fas fa-magnet" />
@@ -111,8 +108,11 @@ class PostWithComments extends Component {
                 </p>
               </div>
             </div>
+            <input type="text" placeholder="comment here" />
+            <button>submit</button>
           </section>
         </section>
+        <Footer />
       </div>
     )
   }
