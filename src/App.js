@@ -18,6 +18,7 @@ import Mission from './Pages/Mission/index'
 import MyCommunity from './Pages/MyCommunity/index'
 import PeopleInterested from './Pages/PeopleInterested/index'
 import Notifications from './Pages/Notifications/index'
+import CreateAPost from './Components/CreateAPost/CreateAPost'
 
 class App extends Component {
   render() {
@@ -30,6 +31,7 @@ class App extends Component {
           <Route path="/Profile/" component={Profile} />
           <Route path="/UpdateProfile/" component={UpdateProfile} />
           <Route path="/MyCommunity/" component={MyCommunity} />
+          <Route path="/CreateAPost/" component={CreateAPost} />
           <Route path="/Posts/" component={Posts} />
           <Route path="/PostWithComments/" component={PostWithComments} />
           <Route path="/PeopleInterested/" component={PeopleInterested} />
