@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import requestimg from '../../assets/dev.jpeg'
 import profileimg from '../../assets/picklerick.jpg'
 import './style.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 //
 // three lines is called a hamburger menu
@@ -13,19 +14,22 @@ class Post extends Component {
         <section className="requestBoxCentering">
           <section className="requestBox">
             <div className="requestBoxTopBar">
-              <a href="#">
+              <Link to="/Profile">
                 <img
                   className="requestBoxProfileImage"
                   src={profileimg}
                   alt="profile"
                 />
-              </a>
+              </Link>
               <div className="requestBoxTopBarInfo">
-                <a href="#">
+                <Link to="/Profile">
                   <p className="requestBoxProfileName">Pickle Rick</p>
-                </a>
+                </Link>
                 <p className="requestBoxDate">Yesterday</p>
               </div>
+              {/* options menu (possibly remove)
+              - turn off notifications? 
+              - share post to your page?*/}
               <a href="#">
                 <i className="fas fa-ellipsis-v" />
               </a>
@@ -38,25 +42,24 @@ class Post extends Component {
             </ul>
             <div className="requestBoxMiddleBar">
               <div className="requestBoxMiddleBarTwo">
-                <a href="#">
+                <Link to="/PostWithComments">
                   <i className="far fa-comment" />
-                </a>
-                {/* <p className="requestBoxClick">Comment</p> */}
+                </Link>
               </div>
               <div className="requestBoxMiddleBarTwo">
+                {/* when clicked add to my interested posts */}
                 <a href="#">
                   <i className="fas fa-magnet" />
                 </a>
-                {/* <p className="requestBoxClick">Interested</p> */}
               </div>
             </div>
             <div className="requestBoxBottomBar">
-              <a href="#" className="requestBoxBottomBarInfo">
+              <Link to="/PostWithComments" className="requestBoxBottomBarInfo">
                 7 comments
-              </a>
-              <a href="#" className="requestBoxBottomBarInfo">
+              </Link>
+              <Link to="/PeopleInterested" className="requestBoxBottomBarInfo">
                 9 Interested
-              </a>
+              </Link>
             </div>
           </section>
         </section>

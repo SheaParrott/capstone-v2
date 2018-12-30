@@ -15,8 +15,9 @@ import Posts from './Pages/Posts/index'
 import PostWithComments from './Pages/PostWithComments/index'
 import Creator from './Pages/Creator/index'
 import Mission from './Pages/Mission/index'
-import MyCommunity from './Pages/MyCommunity'
-import Notifications from './Pages/Notifications'
+import MyCommunity from './Pages/MyCommunity/index'
+import PeopleInterested from './Pages/PeopleInterested/index'
+import Notifications from './Pages/Notifications/index'
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
           <Route path="/MyCommunity/" component={MyCommunity} />
           <Route path="/Posts/" component={Posts} />
           <Route path="/PostWithComments/" component={PostWithComments} />
+          <Route path="/PeopleInterested/" component={PeopleInterested} />
           <Route path="/Creator/" component={Creator} />
           <Route path="/Mission/" component={Mission} />
         </div>

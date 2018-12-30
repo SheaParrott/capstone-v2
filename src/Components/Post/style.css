@@ -84,7 +84,7 @@ div.requestBoxBottomBar {
   display: flex;
   justify-content: space-around;
 }
-a.requestBoxBottomBarInfo {
+.requestBoxBottomBarInfo {
   opacity: 0.7;
   font-size: 0.5rem;
 }

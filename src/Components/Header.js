@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import HamburgerMenu from './headerHamburgerMenu'
-import Notifications from './Notifications'
 
 class Header extends Component {
   render() {
