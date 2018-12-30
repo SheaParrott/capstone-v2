@@ -32,7 +32,7 @@ class Notifications extends Component {
                   alt="profile"
                 />
               </Link>
-              <h5>Pickle Rick commented on your Post</h5>
+              <h5>Pickle Rick requested to be a part of your commmunity</h5>
             </section>
           </Link>
           <Link to="/PostWithComments">

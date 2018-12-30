@@ -14,6 +14,7 @@ class Header extends Component {
           mission 
           creator
           sign out
+          search options
           */}
           <a href="#">
             <i className="fas fa-bars" />

@@ -3,10 +3,6 @@ import './App.css'
 // tools
 import axios from 'axios'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-// components
-import Footer from './Components/Footer'
-import Post from './Components/Post/Post'
-import Header from './Components/Header'
 // pages
 import SignIn from './Pages/SignIn/index'
 import Profile from './Pages/Profile/index'
@@ -75,13 +71,14 @@ export default App
 // - things that are related to your profile info
 
 // Things missing:
-// [] create a post component
+// [x] create a post component
 // [] add to your request to join community option
-// [] see more in my community
+// [x] see more in my community
 //     - make a my community page
 // [x] what i want to do, what i can do, what need help doing
-// [] add some sort of back button to Mission and Creater pages
-// [] page for updating profile page
+// [x] add some sort of back button to Mission and Creater pages
+// [] add in default inspirational quotes and inspirational quotes section
+// [x] page for updating profile page
 //  - picture
 //  - strengths
 //  - about me
