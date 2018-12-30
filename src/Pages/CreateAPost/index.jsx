@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Header from '../Header'
+import Header from '../../Components/Header'
 import requestimg from '../../assets/dev.jpeg'
 import profileimg from '../../assets/picklerick.jpg'
 import insertImage from '../../assets/insert-image.png'
 import './style.css'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import Footer from '../Footer'
+import Footer from '../../Components/Footer'
 
 class CreateAPost extends Component {
   constructor(props) {

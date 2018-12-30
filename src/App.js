@@ -14,7 +14,7 @@ import Mission from './Pages/Mission/index'
 import MyCommunity from './Pages/MyCommunity/index'
 import PeopleInterested from './Pages/PeopleInterested/index'
 import Notifications from './Pages/Notifications/index'
-import CreateAPost from './Components/CreateAPost/CreateAPost'
+import CreateAPost from './Pages/CreateAPost/index'
 
 class App extends Component {
   render() {
