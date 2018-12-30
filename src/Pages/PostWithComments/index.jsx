@@ -53,7 +53,7 @@ class PostWithComments extends Component {
               </div>
             </div>
             <div className="requestBoxBottomBar">
-              <Link to="/PostWithComments" className="requestBoxBottomBarInfo">
+              <Link to="/PeopleInterested" className="requestBoxBottomBarInfo">
                 9 Interested
               </Link>
             </div>

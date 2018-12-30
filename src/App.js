@@ -73,7 +73,7 @@ export default App
 // - things that are related to your profile info
 
 // Things missing:
-// [] where to make a post
+// [] create a post component
 // [] add to your request to join community option
 // [] see more in my community
 //     - make a my community page
