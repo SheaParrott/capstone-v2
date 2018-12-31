@@ -23,19 +23,7 @@ class Notifications extends Component {
               <h5>Pickle Rick commented on your Post</h5>
             </section>
           </Link>
-          <Link to="/PostWithComments">
-            <section className="notificationsBox">
-              <Link to="/Profile">
-                <img
-                  className="notificationsBoxProfileImage"
-                  src={profileimg}
-                  alt="profile"
-                />
-              </Link>
-              <h5>Pickle Rick requested to be a part of your commmunity</h5>
-            </section>
-          </Link>
-          <Link to="/PostWithComments">
+          <Link to="/FriendRequests">
             <section className="notificationsBox">
               <Link to="/Profile">
                 <img
@@ -59,7 +47,7 @@ class Notifications extends Component {
               <h5>Pickle Rick commented on your Post</h5>
             </section>
           </Link>
-          <Link to="/PostWithComments">
+          <Link to="/FriendRequests">
             <section className="notificationsBox">
               <Link to="/Profile">
                 <img
@@ -83,7 +71,7 @@ class Notifications extends Component {
               <h5>Pickle Rick commented on your Post</h5>
             </section>
           </Link>
-          <Link to="/PostWithComments">
+          <Link to="/FriendRequests">
             <section className="notificationsBox">
               <Link to="/Profile">
                 <img
@@ -107,7 +95,7 @@ class Notifications extends Component {
               <h5>Pickle Rick commented on your Post</h5>
             </section>
           </Link>
-          <Link to="/PostWithComments">
+          <Link to="/FriendRequests">
             <section className="notificationsBox">
               <Link to="/Profile">
                 <img

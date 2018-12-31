@@ -1,0 +1,8 @@
+div.addToCommunity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-plus-circle {
+  font-size: 20px;
+}

@@ -74,7 +74,7 @@ export default App
 
 // Things missing:
 // [x] create a post component
-// [] add to your request to join community option
+// [x] add to your request to join community option
 // [x] see more in my community
 //     - make a my community page
 // [x] what i want to do, what i can do, what need help doing
