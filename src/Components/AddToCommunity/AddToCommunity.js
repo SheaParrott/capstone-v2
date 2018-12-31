@@ -4,10 +4,12 @@ import './style.css'
 class AddToCommunity extends Component {
   render() {
     return (
-      <div className="addToCommunity">
-        {/* make clickable */}
-        <i class="fas fa-plus-circle" />
-        <p>Add to Community</p>
+      <div className="addToCommunityBox">
+        <div className="addToCommunity">
+          {/* make clickable */}
+          <i class="fas fa-plus-circle" />
+          <p>Add to Community</p>
+        </div>
       </div>
     )
   }
