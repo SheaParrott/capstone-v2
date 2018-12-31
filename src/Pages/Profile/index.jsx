@@ -32,9 +32,7 @@ class Profile extends Component {
         <p>
           Pokem ipsum dolor sit amet Zekrom Nidoran Togetic Girafarig Hariyama
           Cubchoo. V for victory Remoraid Terrakion Lanturn Seviper Grimer
-          Plusle. Blizzard Elgyem Combusken Shinx Gold Luxio Leaf Green. Ivysaur
-          Houndoom Jirachi Professor Elm Spheal Gorebyss Silver. Razor Leaf
-          Kingdra Xatu Serperior Sewaddle Plusle Octillery.
+          Plusle.
         </p>
       )
     }
@@ -52,9 +50,7 @@ class Profile extends Component {
         <p>
           Pokem ipsum dolor sit amet Zekrom Nidoran Togetic Girafarig Hariyama
           Cubchoo. V for victory Remoraid Terrakion Lanturn Seviper Grimer
-          Plusle. Blizzard Elgyem Combusken Shinx Gold Luxio Leaf Green. Ivysaur
-          Houndoom Jirachi Professor Elm Spheal Gorebyss Silver. Razor Leaf
-          Kingdra Xatu Serperior Sewaddle Plusle Octillery.
+          Plusle.
         </p>
       )
     } else if (this.state.profileBioSection === 'STRUGGLES') {
@@ -81,6 +77,10 @@ class Profile extends Component {
             <Link to="/UpdateProfile">
               <img className="ProfileImage" src={profileimg} alt="profile" />
             </Link>
+            <div className="profileQuote">
+              Failure will never overtake me if my determination to succeed is
+              strong enough.
+            </div>
           </div>
           {/* on click fill bio box below with info */}
           <div className="profileAttributesBar">
@@ -107,6 +107,7 @@ class Profile extends Component {
             </h6>
           </div>
           <div className="profileBio">{this.fillInBox()}</div>
+
           <div className="profileMyCommunityParent">
             <h6>my community:</h6>
             <div className="profileMyCommunity">
