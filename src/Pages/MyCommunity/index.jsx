@@ -231,7 +231,7 @@ class MyCommunity extends Component {
             <Link to="/Profile">
               <h3 className="allMyCommunity">Pickle Rick</h3>
             </Link>
-            {/* remove friend option */}
+            {/* remove friend option  */}
             <i className="fas fa-ellipsis-v" />
           </section>
         </div>
