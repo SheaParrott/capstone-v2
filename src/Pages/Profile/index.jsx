@@ -188,10 +188,10 @@ class Profile extends Component {
               <h6>See More</h6>
             </Link>
           </div>
-          <div class="ProfilePostsBox">
+          <div className="ProfilePostsBox">
             <h6>Recommended Posts:</h6>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}
@@ -201,7 +201,7 @@ class Profile extends Component {
               </div>
             </Link>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}
@@ -211,7 +211,7 @@ class Profile extends Component {
               </div>
             </Link>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}
@@ -224,10 +224,10 @@ class Profile extends Component {
               <h6>See More</h6>
             </Link>
           </div>
-          <div class="ProfilePostsBox">
+          <div className="ProfilePostsBox">
             <h6>interested Posts:</h6>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}
@@ -237,7 +237,7 @@ class Profile extends Component {
               </div>
             </Link>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}
@@ -247,7 +247,7 @@ class Profile extends Component {
               </div>
             </Link>
             <Link to="/PostWithComments">
-              <div class="ProfileRecommendedPost">
+              <div className="ProfileRecommendedPost">
                 <img
                   className="ProfileRequestBoxImage"
                   src={requestimg}

@@ -7,7 +7,7 @@ class Footer extends Component {
       <footer>
         <Link to="/Mission"> Mission</Link>
         <Link to="/Creator"> Creator</Link>
-        <Link to="/">Home</Link>
+        <Link to="/">Sign In</Link>
         <p>&copy; SheaParrott Productions</p>
       </footer>
     )

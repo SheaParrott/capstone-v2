@@ -7,7 +7,7 @@ class AddToCommunity extends Component {
       <div className="addToCommunityBox">
         <div className="addToCommunity">
           {/* make clickable */}
-          <i class="fas fa-plus-circle" />
+          <i className="fas fa-plus-circle" />
           <p>Add to Community</p>
         </div>
       </div>
