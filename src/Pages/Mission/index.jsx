@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Footer from '../../Components/Footer'
 import './style.css'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class Mission extends Component {
   loadCreatorPage = () => {
@@ -27,7 +28,9 @@ class Mission extends Component {
             Any questions or suggestions are welcome. Please click below to get
             in contact.
           </h5>
-          <button onClick={this.loadCreatorPage}>Contact Us</button>
+          <Link to="/Creator">
+            <button onClick={this.loadCreatorPage}>Contact Us</button>
+          </Link>
         </div>
         <Footer />
       </div>

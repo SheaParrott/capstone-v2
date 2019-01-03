@@ -85,6 +85,7 @@ class Profile extends Component {
             </div>
           </div>
           {/* on click fill bio box below with info */}
+          {/* each struggle and strength needs to have a  tag tied to it */}
           <div className="profileAttributesBar">
             <h6
               onClick={this.AttributeClickToChangeState}

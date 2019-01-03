@@ -29,7 +29,7 @@ class SignIn extends Component {
         <section className="signUp">
           <Link to="/UpdateProfile">
             <button onClick={this.googleAuthorization}>
-              <i class="fab fa-google-plus-g" />
+              <i className="fab fa-google-plus-g" />
               GMAIL
             </button>
           </Link>
@@ -44,12 +44,12 @@ class SignIn extends Component {
         </section>
         <section className="signInMission">
           <div className="signInMissionStatements">
-            <i class="fas fa-hands-helping" />
+            <i className="fas fa-hands-helping" />
             <p className="signInMissionStatements">HELP</p>
           </div>
           <i class="fas fa-arrow-right" />
           <div className="signInMissionStatements">
-            <i class="fas fa-lightbulb" />
+            <i className="fas fa-lightbulb" />
             <p className="signInMissionStatements">INSPIRE</p>
           </div>
           <i class="fas fa-arrow-right" />
